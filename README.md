@@ -27,7 +27,7 @@ In order to get the reliable values, we filter out the faulty data starting by F
 To compute the averaged metrics, we collect the metrics for each rows (if is in the specified interval) and then get the average value for the interval in new dataframe. 
 
 Then we also compute the hourly averaged metrics:
-    - Validate the metrics for the input interval;
+    - Validate the metrics for the input interval
     - Create new dataframe
     - Get the time delta for hours from timestamp
-    - Compute ave
+    - Compute averaged metrics
